@@ -1,0 +1,7 @@
+br.com.elementi.core.application.ApplicationIdentity.create(1).toString()
+
+FROM Document alias 
+WHERE 
+	alias.code = :code AND alias.description = :description 
+		OR 
+	alias.code = :code AND alias.description = :description

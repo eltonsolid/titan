@@ -1,0 +1,6 @@
+SELECT 
+alias.name, alias.father, 
+alias2.address.name, alias2.phone.number, 
+alias3.code, alias3.type 
+FROM DummyEntity alias, DummyPerson alias2, DummyContract alias3 
+WHERE alias.name = :name1 AND alias.id = alias2.entity.id AND alias.id = alias3.identityEntity}

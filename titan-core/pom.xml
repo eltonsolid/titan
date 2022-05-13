@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>br.com.base.element</groupId>
+		<artifactId>titan-architecture</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../titan-architecture</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>titan-core</artifactId>
+	<name>Titan Core</name>
+	<description>Core do titan com as funcionalidades de base</description>
+</project>
